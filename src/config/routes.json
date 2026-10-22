@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/",
+    "title": "Charge closer, drive further",
+    "description": "A planned app to help electric car and bike riders in Andhra Pradesh find compatible charging, from public stations to participating private hosts."
+  },
+  {
+    "path": "/how-it-works",
+    "title": "How it works",
+    "description": "Five steps from low battery to plugged in: your vehicle, nearby options, compatibility checks, charging and quick reports."
+  },
+  {
+    "path": "/drivers",
+    "title": "For drivers",
+    "description": "Charging that fits your electric car or scooter: connector compatibility, opening hours, access notes and clear prices before you go."
+  },
+  {
+    "path": "/hosts",
+    "title": "For charging hosts",
+    "description": "Have a charger or a suitable socket where vehicles park? Learn how hosting is planned to work, safely, on your terms."
+  },
+  {
+    "path": "/safety",
+    "title": "Safety and trust",
+    "description": "Checked hosts, honest information, private addresses and electrical safety first: the principles behind the planned app."
+  },
+  {
+    "path": "/faq",
+    "title": "Questions and answers",
+    "description": "Straight answers about the planned EV charging app for Andhra Pradesh: availability, compatibility, hosting, safety and data."
+  },
+  {
+    "path": "/contact",
+    "title": "Contact and early access",
+    "description": "Join driver early access, register host interest, propose a partnership or send a question."
+  }
+]

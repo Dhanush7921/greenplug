@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.dev/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+# Third-party reference material used during design; kept locally, not published.
+references/
+test-results/

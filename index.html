@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-IN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>%TITLE%</title>
+    <meta name="description" content="%DESCRIPTION%" />
+    <meta name="theme-color" content="#DAF1DE" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#051F20" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="%TITLE%" />
+    <meta property="og:description" content="%DESCRIPTION%" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <script>
+      (function () {
+        var d = document.documentElement;
+        try {
+          var t = localStorage.getItem('greenplug-theme');
+          if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          d.setAttribute('data-theme', t);
+        } catch (e) {
+          d.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <!--app-assets-->
+  </head>
+  <body>
+    <noscript>
+      <div style="padding:24px;font-family:system-ui,sans-serif">GREENPLUG is a planned EV charging discovery app for Andhra Pradesh. This website needs JavaScript for its interactive 3D scenes and forms.</div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
